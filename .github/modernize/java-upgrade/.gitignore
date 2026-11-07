@@ -1,0 +1,37 @@
+@"
+# Node
+node_modules/
+**/node_modules/
+
+# Python
+ai_env/
+venv/
+.venv/
+**/__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Flutter
+.dart_tool/
+**/.dart_tool/
+build/
+**/build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Set-Content -Encoding UTF8 .gitignore
